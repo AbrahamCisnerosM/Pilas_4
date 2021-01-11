@@ -99,7 +99,7 @@ public class PILAS_4 {
          }
          else
          {
-             System.out.print("\n\nTU PILA YA ESTA LLENA HUMANO...\n");
+             System.out.print("\n\nTU PILA YA ESTA LLENA\n");
          }
   
      }
@@ -122,7 +122,7 @@ public class PILAS_4 {
                }
            }
        }
-       System.out.print("\n\nARREGLO EN ORDEN...\n");
+       System.out.print("\n\nARREGLO ESTA EN ORDEN...\n");
        for(int z=1; z<27; z++){
          TOPE++;
          System.out.print(pilaJ[z]+" ");
@@ -134,7 +134,7 @@ public class PILAS_4 {
      {
          if(TOPE==0)
          {
-              System.out.print("\n\nNO PUEDO MOSTRA UNA PILA VACIA HUMANO...\n");
+              System.out.print("\n\nPILA VACIA\n");
          }
         
          else
@@ -165,7 +165,7 @@ public class PILAS_4 {
                 V=0;
              if(L==pilaJ[x])
              {
-                System.err.print("\n\n¡ERROR! DATO REPETIDO...\n");
+                System.err.print("\n\nDATO REPETIDO...\n");
                  x=TOPE+1;
                  V=1;
              }
